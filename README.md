@@ -1,70 +1,68 @@
-# Spotfy Wrapper
+# HelloWorldTDD
 
-A wrapper to work with the [Spotify Web Api](https://developer.spotify.com/documentation/web-api/)
+A simple and complete mode to creating a hello world aplication with the best tools em pratices
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+(In construction)
 
 ### Prerequisities
 
-What things you need to install the software and how to install them
+Do you need a little knowledge in JavaScript And Mocha with your library Chai
 
 ```
-Give examples
+(In construction)
 ```
 
-### Installing
+### Installing - (In construction)
 
-A step by step series of examples that tell you have to get a development env running
+(In construction)
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+(In construction)
 
 ```
-until finished
+(In construction)
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+For run the test so you need a npm script execute
 
-### Break down into end to end tests
+### A litle example
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+Running only once
 
 ```
-Give an example
+npm test
 ```
 
-## Deployment
+Running with a watcher for reload on save the files
+
+```
+npm test:tdd
+```
+
+### And coding style tests - (In construction)
+
+(In construction)
+
+```
+(In construction)
+```
+
+## Deployment -(In construction)
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
+## Built With - (In construction)
 
-* Dropwizard - Bla bla bla
-* Maven - Maybe
-* Atom - ergaerga
+* ---
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/DouglasDomenciano/) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/DouglasDomenciano/HelloWorldTDD/) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
