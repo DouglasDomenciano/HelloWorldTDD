@@ -11,7 +11,7 @@
     "test": "./node_modules/.bin/ mocha tests/*.spec.js --require babel-register",
     "test:tdd": "npm test -- --watch",
     "test:coverage": "npm run clear && nyc npm test",
-    "lint": "./node_modules/.bin/eslint src/*.js",
+    "lint": "./node_modules/.bin/eslint src/js/*.js",
     "lint:fix": "npm run lint -- --fix",
     "prepush": "npm run lint"
   },
