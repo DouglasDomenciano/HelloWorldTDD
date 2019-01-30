@@ -1,7 +1,3 @@
-const HelloWorld = () =>{
-    return "Hello World"
-};
-const HelloWorldWithName = (name) =>{
-    return `Hello World ${name}`
-};
-export { HelloWorld, HelloWorldWithName };
+const HelloWorld = () => 'Hello World';
+const HelloWorldWithName = name => `Hello World ${name}`;
+export { HelloWorld, HelloWorldWithName }

@@ -1,5 +1,5 @@
 {
-  "name": "HelloWolrd",
+  "name": "hellowolrd",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,10 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/ mocha tests/*.spec.js --require babel-register --watch",
-    "test:tdd": "npm test -- --watch"
+    "test:tdd": "npm test -- --watch",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "lint:fix": "npm run lint -- --fix",
+    "prepush": "npm run lint"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +21,13 @@
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-mocha": "^5.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
     "mocha": "^5.2.0"
   }
 }
