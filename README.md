@@ -1,6 +1,6 @@
 # HelloWorldTDD
 
-A simple and complete mode to creating a hello world aplication with the best tools em pratices
+A simple way to create one Hello World app, using TDD, Hooks, Travis, Coveralls, and much more.
 
 ## Getting Started
 

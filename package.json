@@ -1,19 +1,22 @@
 {
-  "name": "hellowolrd",
+  "name": "hello-world-tdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple way to create one Hello World app, using TDD, Hooks, Travis, Coveralls, and much more.",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "clear": "rimraf ./tests_coverage/** ./nyc_output/",
-    "test": "./node_modules/.bin/ mocha tests/*.spec.js --require babel-register",
+    "build": "./node_modules/.bin/babel --out-dir build/js/ src/js",
+    "build:watch": "npm run build -- --watch",
+    "clear": "rimraf [./tests_coverage/, ./nyc_output/, ./build/]",
+    "test": "./node_modules/.bin/mocha tests/*.spec.js --require babel-register",
     "test:tdd": "npm test -- --watch",
     "test:coverage": "npm run clear && nyc npm test",
     "lint": "./node_modules/.bin/eslint src/js/*.js",
     "lint:fix": "npm run lint -- --fix",
-    "prepush": "npm run lint"
+    "prepush": "npm run lint", 
+    "prebuild": "npm run lint && npm run test"
   },
   "nyc": {
     "reporter": [
