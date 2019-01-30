@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { HelloWorld, HelloWorldWithName } from '../src/main'
+import { HelloWorld, HelloWorldWithName } from '../src/js/main'
 describe('First test with Mocha & Chai', () => {
     context('smoke testes', () => {
         it('should be a Hello World exstis', () => {
