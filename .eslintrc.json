@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true
+    },
+    "globals": {
+        "describe": false
+    },
+    "extends": "airbnb-base",
+    "plugins": [
+        "import",
+        "mocha"
+    ],
+    "rules": {
+        "mocha/no-exclusive-tests": "error"
+    }
+}
