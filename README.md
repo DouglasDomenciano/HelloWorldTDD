@@ -1,5 +1,6 @@
 # HelloWorldTDD
 [![Build Status](https://travis-ci.org/DouglasDomenciano/HelloWorldTDD.svg?branch=master)](https://travis-ci.org/DouglasDomenciano/HelloWorldTDD)
+[![Coverage Status](https://coveralls.io/repos/github/DouglasDomenciano/HelloWorldTDD/badge.svg?branch=master)](https://coveralls.io/github/DouglasDomenciano/HelloWorldTDD?branch=master)
 
 A little way to create one Hello World app, using TDD, Hooks, Travis, Coveralls, and much more.
 
