@@ -47,14 +47,14 @@ Do you need a little knowledge in JavaScript
 ## Installing
 
 ```
-npm install helloworldtdd --save-dev
+npm install hello-world-tdd --save-dev
 ```
 
 just below a small example of import and use
 
 ## How to use
 
-### ES6
+#### ES6
 ```js
 
 // To import a specific method
@@ -65,7 +65,7 @@ import * as yourAlias from 'helloworldtdd';
 
 ```
 
-### CommonJS
+#### CommonJS
 
 ```js
 
@@ -76,12 +76,12 @@ youVariable.helloWorldWithName("Name");
 
 ```
 
-### Using in Browser (UMD)
+#### Using in Browser (UMD)
 
 ```html
 
 <!-- to import -->
-<script src="spotify-wrapper.umd.min.js"></script>
+<script src="node_modules/hello-world-tdd/dist/helloworldtdd.umd.min.js"></script>
 
 ```
 After that the library will be available to the Global as `helloworldtdd`. Follow an example:

@@ -1,6 +1,6 @@
 {
-  "name": "helloworldtdd",
-  "version": "1.0.1",
+  "name": "hello-world-tdd",
+  "version": "1.0.0",
   "description": "A simple way to create one Hello World app, using TDD, Hooks, Travis, Coveralls, and much more.",
   "main": "build/js/main.js",
   "scripts": {
@@ -63,8 +63,5 @@
     "rimraf": "^2.6.3",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
-  },
-  "dependencies": {
-    "babel": "^6.23.0"
   }
 }
