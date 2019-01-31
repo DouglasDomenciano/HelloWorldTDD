@@ -7,7 +7,7 @@ export default {
     output: {
         path: join(__dirname,'dist'),
         libraryTarget: 'umd',
-        library: 'HelloWorldTDD',
+        library: 'helloworldtdd',
     },
     devtool: 'source-map',
     module: {
