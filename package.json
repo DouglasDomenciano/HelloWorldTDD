@@ -1,3 +1,4 @@
+
 {
   "name": "hello-world-tdd",
   "version": "1.0.0",
@@ -7,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "./node_modules/.bin/babel --out-dir build/js/ src/js",
+    "build": "./node_modules/.bin/babel --out-dir build/js/ src/js && npm run lint",
     "build:watch": "npm run build -- --watch",
     "build:npm:umd": "./node_modules/.bin/webpack --mode production --output-filename helloworldtdd.umd.min.js",
     "build:all": "npm run clear && npm run build && npm run build:npm:umd",
