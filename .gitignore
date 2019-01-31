@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+#VSCode dir
+.vscode
+
 # Runtime data
 pids
 *.pid
@@ -14,6 +17,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+tests_coverage/
 
 # nyc test coverage
 .nyc_output
