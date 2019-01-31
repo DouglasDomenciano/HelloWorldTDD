@@ -1,6 +1,6 @@
 {
-  "name": "hello-world-tdd",
-  "version": "1.0.0",
+  "name": "helloworldtdd",
+  "version": "1.0.1",
   "description": "A simple way to create one Hello World app, using TDD, Hooks, Travis, Coveralls, and much more.",
   "main": "build/js/main.js",
   "scripts": {
