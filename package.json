@@ -15,7 +15,7 @@
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls",
     "lint": "./node_modules/.bin/eslint src/js/*.js",
     "lint:fix": "npm run lint -- --fix",
-    "prepush": "npm run lint",
+    "prepush": "npm run lint && npm run test:coverage",
     "prebuild": "npm run lint && npm run test"
   },
   "files": [
