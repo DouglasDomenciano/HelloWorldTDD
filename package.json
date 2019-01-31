@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A simple way to create one Hello World app, using TDD, Hooks, Travis, Coveralls, and much more.",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
     "build": "./node_modules/.bin/babel --out-dir build/js/ src/js",
     "build:watch": "npm run build -- --watch",
@@ -14,13 +11,17 @@
     "clear": "rimraf ./tests_coverage/ ./nyc_output/ ./build/ ./dist/",
     "test": "./node_modules/.bin/mocha tests/*.spec.js --require babel-register",
     "test:tdd": "npm test -- --watch",
-    "test:coverage": "npm run clear && nyc npm test",
+    "test:coverage": "nyc npm test",
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls",
     "lint": "./node_modules/.bin/eslint src/js/*.js",
     "lint:fix": "npm run lint -- --fix",
     "prepush": "npm run lint",
     "prebuild": "npm run lint && npm run test"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "nyc": {
     "reporter": [
       "text",
@@ -32,16 +33,16 @@
     ],
     "report-dir": "./tests_coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["hello", "world", "tdd", "js"],
+  "author": "Douglas Domenciano",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.24.0",
     "chai": "^4.2.0",
-    "coveralls": "^3.0.2",
+    "coveralls": "^2.13.0",
     "eslint": "^5.12.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
